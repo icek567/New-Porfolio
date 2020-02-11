@@ -1,10 +1,18 @@
 body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image: url("https://www.rrts.com/wp-content/uploads/2018/09/Blue-Background.jpg");
-    background-repeat: no-repeat;
-    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQUI3Hs2Ax7Gcb-hAPqwhSsuY2BRmbFicQPWlHlXulckvWDBQZO"); */
+    font-family: 'Source Sans Pro', sans-serif;
+    /* background-image: url("https://www.rrts.com/wp-content/uploads/2018/09/Blue-Background.jpg");
+    background-repeat: no-repeat; */
+    background-image: url("../assets/images/spikes.png");
 }
 
 .container{
     background: rgba(0,0,0,0.5);
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
 }
