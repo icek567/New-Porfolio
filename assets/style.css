@@ -1,12 +1,11 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    /* background-image: url("https://www.rrts.com/wp-content/uploads/2018/09/Blue-Background.jpg");
-    background-repeat: no-repeat; */
     background-image: url("../assets/images/spikes.png");
 }
 
 .container{
-    background: rgba(0,0,0,0.5);
+    background: rgba(5, 45, 126, 0.76);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.781), 0 6px 20px 0 rgba(20, 5, 241, 0.623);
 }
 
 .footer{
@@ -15,4 +14,11 @@ body{
     bottom: 0;
     width: 100%;
     height: 5%;
+}
+
+.container2{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
