@@ -1,118 +1,119 @@
 
 
 
-  #header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 300px;
-    transition: all ease-in-out 0.5s;
-    z-index: 9997;
-    transition: all 0.5s;
-    padding: 0 15px;
-    background:#112D4E;
-    overflow-y: auto;
-  }
-  
-  #header .profile img {
-    margin: 15px auto;
-    display: block;
-    width: 250px;
-    border-radius: 50%;
-  }
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 0 15px;
+  background:#112D4E;
+  overflow-y: auto;
+}
 
-  #header .profile h1 {
-    font-size: 24px;
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-    -moz-text-align-last: center;
-    text-align-last: center;
-    font-family: "Poppins", sans-serif;
-  }
+#header .profile img {
+  margin: 15px auto;
+  display: block;
+  width: 250px;
+  border-radius: 50%;
+}
+
+#header .profile h1 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-family: "Poppins", sans-serif;
+}
   
-  #header .profile h1 a, #header .profile h1 a:hover {
-    color: #fff;
-    text-decoration: none;
-  }
+#header .profile h1 a, #header .profile h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
   
-  #header .profile .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
-  }
+#header .profile .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
   
-  #header .profile .social-links a:hover {
-    /* background: #149ddd; */
-    color: #149ddd;
-    text-decoration: none;
-  }
+#header .profile .social-links a:hover {
+  /* background: #149ddd; */
+  color: #149ddd;
+  text-decoration: none;
+}
   
+#main {
+   margin-left: 300px;
+}
+  
+@media (max-width: 1199px) {
+  #header {
+    left: -300px;
+  }
   #main {
-    margin-left: 300px;
+    margin-left: 0;
   }
+}
   
-  @media (max-width: 1199px) {
-    #header {
-      left: -300px;
-    }
-    #main {
-      margin-left: 0;
-    }
-  }
-  
-  /*--------------------------------------------------------------
+/*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
-  /* Desktop Navigation */
-  .nav-menu {
-    padding-top: 30px;
-  }
+/* Desktop Navigation */
+
+.nav-menu {
+  padding-top: 30px;
+}
   
-  .nav-menu * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
   
-  .nav-menu > ul > li {
-    position: relative;
-    white-space: nowrap;
-  }
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+}
   
-  .nav-menu a {
-    display: flex;
-    align-items: center;
-    color: #fafafa;
-    padding: 12px 15px;
-    margin-bottom: 8px;
-    transition: 0.3s;
-    font-size: 15px;
-  }
+.nav-menu a {
+  display: flex;
+  align-items: center;
+  color: #fafafa;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+}
   
-  .nav-menu a i {
-    font-size: 24px;
-    padding-right: 8px;
-    color: #6f7180;
-  }
+.nav-menu a i {
+  font-size: 24px;
+  padding-right: 8px;
+  color: #6f7180;
+}
   
-  .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-    text-decoration: none;
-    color: #fff;
-  }
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+  text-decoration: none;
+  color: #fff;
+}
   
-  .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
-    color: #149ddd;
-  }
+.nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
+  color: #149ddd;
+}
   
   
 /* Navbar for when the screen size is smaller */
