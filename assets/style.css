@@ -1,8 +1,9 @@
 
-/* body{
+main{
   background-image: linear-gradient(to bottom, rgba(9, 18, 59, 0.6) 0%, rgba(8, 17, 68, 0.6) 100%), url("/assets/images/DSC01196.JPG");
+  background-attachment: fixed;
   background-size: cover;
-} */
+}
 
 #header {
   position: fixed;
@@ -147,7 +148,7 @@ p{
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #95b6d4;
 }
 
 .about .content ul {
@@ -176,11 +177,12 @@ p{
 section {
   padding: 60px 0;
   overflow: hidden;
+  color: white;
 }
 
-.section-bg {
+/* .section-bg {
   background: #f5f8fd;
-}
+} */
 
 .section-title {
   padding-bottom: 30px;
@@ -192,7 +194,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #95b6d4
 }
 
 .section-title h2::after {
