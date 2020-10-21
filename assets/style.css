@@ -211,3 +211,71 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
+
+/*--------------------------------------------------------------
+# Cards for Portfolio
+--------------------------------------------------------------*/
+
+
+#cardColor{
+  color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: block;
+  background-color: #0c1d308a;
+
+}
+
+.card .card-body {
+  position: relative;
+}
+
+.accordion{
+  padding-top: 5px;
+  width: 70%;
+}
+
+.accordion .card button {
+  text-decoration: none;
+  color: #112D4E;
+}
+
+.imgbox{
+  position: absolute;
+  left: 19px;
+  top: 309px;
+  width: 19.4rem;
+  height: 36px;
+  text-align: center;
+  padding-top: 2px;
+  background-color: rgb(21, 21, 68);
+  transition: .5s ease;
+  opacity: 0;
+}
+
+.imgbox a:hover, a:focus{
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.card:hover .card-img-top {
+  opacity: 0.3;
+}
+
+.card-img-top{
+  /* height: 200px;
+  width: 200px; */
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding-bottom: 10px;
+}
+
+/* hover effect on link */
+.card:hover .imgbox {
+  opacity: 1;
+  transition: 0.5s;
+}
