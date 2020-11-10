@@ -8,6 +8,14 @@ main{
   background-size: cover;
 }
 
+/* .about{
+  background-color: rgb(2, 60, 136);
+}
+
+#portfolio{
+  background-color: skyblue;
+} */
+
 #header {
   position: fixed;
   top: 0;
@@ -18,7 +26,7 @@ main{
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background:#112D4E;
+  background: rgb(1, 16, 36);
   overflow-y: auto;
 }
 
@@ -163,22 +171,6 @@ ul .selected {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
-  
-/* Navbar for when the screen size is smaller */
-.navbar{
-  /* background-image: url("https://r1.ilikewallpaper.net/iphone-wallpapers/download/10299/Blue-Cloud-iphone-wallpaper-ilikewallpaper_com.jpg"); */
-  background-color:#112D4E;
-  color: white;
-}
-#smallNav .navbar img{
-  margin: 15px auto;
-  display: block;
-  width: 100px;
-  border-radius: 50%;
-  transition: all 0.4s;
-
-}
-
 
 /*--------------------------------------------------------------
 # About
@@ -330,7 +322,7 @@ section {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center ;
   background-size: cover;
 }
 
@@ -359,18 +351,18 @@ section {
   color: #fff;
 }
 
-#hero p {
+#hero h2 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
-#hero p span {
+#hero h2 span {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #ffffff;
 }
 
 @media (min-width: 1024px) {
