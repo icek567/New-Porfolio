@@ -8,13 +8,19 @@ main{
   background-size: cover;
 }
 
-/* .about{
-  background-color: rgb(2, 60, 136);
+.about{
+  background: rgb(4,94,156);
+  clip-path: polygon(0 0, 100% 0, 100% calc(110% - 10vw), 0 100%);
+  margin-bottom: 10vw;
 }
 
 #portfolio{
-  background-color: skyblue;
-} */
+  background-image: linear-gradient( rgb(3, 27, 75), black);
+  /* background:rgb(1,16,36); */
+  clip-path: polygon(0 calc(12% - 10vw ), 100% 0, 100% 100%, 0 100%);
+
+
+}
 
 #header {
   position: fixed;
