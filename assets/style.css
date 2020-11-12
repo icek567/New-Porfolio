@@ -282,6 +282,10 @@ section {
   text-decoration: none;
   transition: all 3s;
 }
+.box{
+  position: relative;
+
+}
 
 .imgbox{
   position: absolute;
@@ -307,6 +311,7 @@ section {
 }
 
 .card-img-top{
+  position: relative;
   /* height: 200px;
   width: 200px; */
   opacity: 1;
