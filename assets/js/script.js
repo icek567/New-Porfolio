@@ -16,6 +16,18 @@
     }
   });
 
+  var typed = new Typed(".skills", {
+    strings: [
+    "Front End Developer",
+    "Web Designer",
+    "Photographer",
+    "Gamer"
+    ],
+    typeSpeed:60,
+    backSpeed:60,
+    loop: true
+    });
+
   // Init AOS
   function aos_init() {
     AOS.init({
