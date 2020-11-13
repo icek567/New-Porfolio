@@ -39,5 +39,13 @@
   $(window).on('load', function() {
     aos_init();
   });
+
+  // anime.timeline({loop: true})
+  // .add({
+  //   targets: ".logo",
+  //   easing: "easeInOutExpo",
+  //   rotateZ: 360,
+  //   duration: 1100
+  // })
   
 })(jQuery);

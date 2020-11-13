@@ -8,6 +8,11 @@ main{
   background-size: cover;
 }
 
+.logo{
+  border-style: dotted;
+  border-color: blanchedalmond;
+}
+
 .about{
   background: rgb(4,94,156);
   clip-path: polygon(0 0, 100% 0, 100% calc(110% - 10vw), 0 100%);
@@ -18,8 +23,6 @@ main{
   background-image: linear-gradient( rgb(3, 27, 75), black);
   /* background:rgb(1,16,36); */
   clip-path: polygon(0 calc(12% - 10vw ), 100% 0, 100% 100%, 0 100%);
-
-
 }
 
 #header {
