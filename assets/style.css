@@ -3,7 +3,7 @@ html{
 }
 
 body{
-  background-image: linear-gradient(to bottom, rgba(9, 18, 59, 0.6) 0%, rgba(8, 17, 68, 0.6) 100%), url("/assets/images/DSC01196.jpg");
+  background-image: linear-gradient(to bottom, rgba(9, 18, 59, 0.6) 0%, rgba(8, 17, 68, 0.6) 100%), url("https://github.com/icek567/New-Portfolio/assets/images/DSC01196.JPG");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -336,7 +336,7 @@ section {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("/assets/images/pexels.jpg") center ;
+  background: url("https://github.com/icek567/New-Portfolio/assets/images/pexels.jpg") center ;
   background-size: cover;
 }
 
