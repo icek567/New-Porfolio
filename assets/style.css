@@ -8,10 +8,9 @@ body{
   background-size: cover;
 }
 
-/* .logo{
-  border-style: dotted;
-  border-color: blanchedalmond;
-} */
+.logo{
+  margin: 20px;
+}
 
 .about{
   background: rgb(4,94,156);
