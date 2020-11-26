@@ -40,12 +40,16 @@
     aos_init();
   });
 
-  // anime.timeline({loop: true})
-  // .add({
-  //   targets: ".logo",
-  //   easing: "easeInOutExpo",
-  //   rotateZ: 360,
-  //   duration: 1100
-  // })
+  anime({
+    targets: '#amazing  path',
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: 'easeInOutSine',
+    fill: '#FFFFFF',
+    duration: 1500,
+    delay: 2000,
+    direction: 'alternate',
+    loop: false
+});
+
   
 })(jQuery);
