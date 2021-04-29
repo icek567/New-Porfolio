@@ -2,10 +2,10 @@ html{
   scroll-behavior: smooth;
 }
 
-body{
+/* body{
   background-attachment: fixed;
   background-size: cover;
-}
+} */
 
 .logo{
   margin: 20px;
@@ -17,10 +17,10 @@ body{
   margin-bottom: 10vw;
 }
 
-#portfolio{
+.portfolio{
   background-image: linear-gradient( rgb(3, 27, 75), black);
-  /* background:rgb(1,16,36); */
-  clip-path: polygon(0 calc(12% - 10vw ), 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 calc(12% - 10vw),100% 0, 100% 100%, 0 100%);
+  margin-bottom: 10vw;
 }
 
 #header {
@@ -393,4 +393,93 @@ section {
     line-height: 24px;
     margin-bottom: 30px;
   }
+}
+
+
+/*--------------------------------------------------------------
+# Tic Tak Toe section 
+--------------------------------------------------------------*/
+
+.game-time{
+  background: cornflowerblue;
+}
+.section .info{
+  background: rgb(10, 10, 10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border-radius:25px 25px 0px 0px;
+}
+.info span , .info h3{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px 10px;
+  font-family: sans-serif;
+  color: brown;
+}
+.show{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background : rgb(205, 6, 231);
+  height: 220px;
+  border-radius: 0px 0px 25px 25px;
+  
+}
+
+
+.show i{
+  font-size: 100px;
+  color: orange;
+}
+.selection{
+  margin-top: 25px;
+  text-align: center;
+}
+
+.selection button{
+  margin: 0 20px;
+  padding: 25px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background : rgb(41, 40, 40);
+  font-size: 33px;
+  color: orange;
+  position: relative;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.choice{
+  color: black;
+}
+
+#demo{
+  text-align: center;
+}
+
+/* after click effect */
+.selection button::after{
+  content: "";
+  background: #d9dfd9;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -35px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.selection button:active::after{
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
 }
